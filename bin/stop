@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+if [ -z "$1" ]
+  then
+		figlet "Arret de tous les containers"
+		docker-compose down
+else
+	figlet "Arret du container $@"
+    docker-compose down $@
+fi
