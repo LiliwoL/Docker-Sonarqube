@@ -1,0 +1,6 @@
+projectKey=TestProject
+serverUrl=http://172.16.3.254:9005
+serverVersion=10.4.0.87286
+dashboardUrl=http://172.16.3.254:9005/dashboard?id=TestProject
+ceTaskId=99e4916f-ad79-4e58-8b84-89d853809274
+ceTaskUrl=http://172.16.3.254:9005/api/ce/task?id=99e4916f-ad79-4e58-8b84-89d853809274

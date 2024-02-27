@@ -17,7 +17,8 @@ services:
       - sonarqube_extensions:/opt/sonarqube/extensions
       - sonarqube_logs:/opt/sonarqube/logs
     ports:
-      - "9000:9000"    
+      - "9005:9000"
+      - "9092:9092"
     networks:
       - sonarqube
 

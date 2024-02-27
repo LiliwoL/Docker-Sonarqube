@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+docker run \
+    --rm \
+    -e SONAR_HOST_URL="http://172.16.3.254:9005" \
+    -e SONAR_SCANNER_OPTS="-Dsonar.projectKey=TestProject" \
+    -e SONAR_TOKEN="sqp_a757473152595d7c748af18af72d34e3de305dd6" \
+    -v ${PWD}/application-to-analyze:/usr/src \
+    sonarsource/sonar-scanner-cli
